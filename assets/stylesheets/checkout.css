@@ -1,0 +1,83 @@
+/* default setting */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(57,61,80);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* basic style */
+.basic {
+    letter-spacing: 0.05em;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+    color: rgb(57,61,80);
+    font-weight:800;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.box {
+    /* width: 400px; */
+    position: relative;
+    color: rgb(57,61,80);
+    margin: 0em 3em;
+    padding: 1em;
+    font-size: 20px;
+}
+
+.container-2 {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.box-2 {
+    min-width: 250px;
+    position: relative;
+    color: rgb(57,61,80);
+}
+
+input {
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+}
