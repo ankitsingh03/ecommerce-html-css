@@ -44,7 +44,7 @@ li a:hover {
 
 img {
     width: 100%;
-    max-width: 400px;
+    max-width: 380px;
     max-height: 280px;
 }
 
@@ -84,5 +84,13 @@ img {
         margin: 1em;
         padding: 0.5em;
         border-radius: 1em;
+    }
+}
+
+@media (max-width: 1000px){
+    img {
+        width: 100%;
+        max-width: 380px;
+        max-height: 350px;
     }
 }

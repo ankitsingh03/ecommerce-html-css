@@ -33,11 +33,11 @@ li a:hover {
 }
 
 img {
-    height: 300px;
     width: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 100%;
+    max-height: 250px;
 }
 
 /* comman properties for all  */
