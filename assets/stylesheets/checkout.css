@@ -36,7 +36,7 @@ li a:hover {
 /* basic style */
 .basic {
     letter-spacing: 0.05em;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 24px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -56,9 +56,10 @@ li a:hover {
 .box {
     position: relative;
     color: rgb(57,61,80);
-    margin: 0em 3em;
+    margin: 0em 1em;
+    margin-bottom: 1em;
     padding: 1em;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .container-2 {
@@ -68,15 +69,15 @@ li a:hover {
 }
 
 .box-2 {
-    min-width: 250px;
+    min-width: 300px;
     position: relative;
     color: rgb(57,61,80);
 }
 
 input {
-    font-size: 20px;
+    font-size: 28px;
 }
 
 select {
-    font-size: 20px;
+    font-size: 25px;
 }

@@ -43,9 +43,8 @@ li a:hover {
 }
 
 img {
-    width: 100%;
     max-width: 380px;
-    max-height: 280px;
+    max-height: 258px;
 }
 
 .btn-1 {
@@ -71,6 +70,7 @@ img {
 
 .box {
     position: relative;
+    width: 400px;
     color: white;
     color: black;
     background-color: white;
@@ -89,7 +89,6 @@ img {
 
 @media (max-width: 1000px){
     img {
-        width: 100%;
         max-width: 380px;
         max-height: 350px;
     }
