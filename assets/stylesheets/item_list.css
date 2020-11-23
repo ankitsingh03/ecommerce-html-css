@@ -91,5 +91,6 @@ img {
     img {
         max-width: 380px;
         max-height: 350px;
+        max-width: 100%;
     }
 }
